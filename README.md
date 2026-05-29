@@ -24,6 +24,13 @@ Mesmo com o uso de KV Cache e atenção otimizada, a arquitetura Transformer pos
 
 Para resolver esse gargalo, a indústria caminha para os **State Space Models (SSMs)**, como a arquitetura **Mamba**. Diferente dos Transformers, o Mamba não armazena o histórico completo de tokens; ele comprime as informações em um "estado oculto" de tamanho fixo. Isso resulta em uma complexidade de memória **$O(1)$**, permitindo o processamento de contextos massivos com consumo de VRAM constante, independente do tamanho da sequência.
 
+## 3. Instruções de Execução
+
+Para reproduzir este laboratório:
+1. Abra o ficheiro `laboratorio_10.ipynb` presente neste repositório.
+2. Abra o ficheiro no **Google Colab**.
+3. Certifique-se de que o Ambiente de Execução está configurado para **Python 3 com GPU T4**.
+4. Execute as células em ordem. O notebook está configurado para instalar automaticamente as bibliotecas `transformers`, `bitsandbytes` e `accelerate`.
 ---
 
 ## 3. Especificações Técnicas
