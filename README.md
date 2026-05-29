@@ -33,7 +33,7 @@ Para reproduzir este laboratório:
 4. Execute as células em ordem. O notebook está configurado para instalar automaticamente as bibliotecas `transformers`, `bitsandbytes` e `accelerate`.
 ---
 
-## 3. Especificações Técnicas
+## 4. Especificações Técnicas
 * **Hardware:** NVIDIA T4 (15GB VRAM)
 * **Modelo:** TinyLlama-1.1B-Chat-v1.0
 * **Ambiente:** Google Colab / PyTorch 2.x
